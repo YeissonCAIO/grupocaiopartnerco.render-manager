@@ -1,0 +1,6 @@
+{
+  "render-manager-custom":{
+    "component":"Index",
+    "composition":"children"
+  }
+}
