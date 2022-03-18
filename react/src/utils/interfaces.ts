@@ -3,11 +3,20 @@ export interface IComponentsToRender {
     interfaceComponent:string;
     showComponent:boolean;
     background:IBackground;
+    spacing:ISpacing;
+    prevText:string;
+    copy:string;
+    blockClass:string;
 }
 
 export interface IBackground{
     color:string;
     image:string;
+}
+
+export interface ISpacing {
+    margin:string;
+    padding:string;
 }
 export interface IList {
     key:string;
