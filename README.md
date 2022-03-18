@@ -1,11 +1,11 @@
 # Render Manager
 
-El render manager es un bloque que permite dinamismo a nivel grafico para el template donde se implemente.
+El render manager es un bloque que permite dinamismo a nivel gráfico para el template donde se implemente.
 Gracias a las diferentes opciones de personalización, podemos ajustar la estructura de la pagina, según los componentes que se tengan disponibles para usar.
 
 ## Configuración
 
-1. Importe la palicación del render manager, dentro de las dependencias de su manifest, en el Store Theme, asi:
+1. Importe la aplicación del render manager, dentro de las dependencias de su manifest, en el Store Theme, así:
 
 ```
 "dependencies":{
@@ -13,7 +13,7 @@ Gracias a las diferentes opciones de personalización, podemos ajustar la estruc
 }
 ```
 
-2. Agregue el bloque "render-manager-custom", al template donde desea que se visualice, asi:
+2. Agregue el bloque "render-manager-custom", al template donde desea que se visualice, así:
 
 ```
     "render-manager-custom":{
@@ -61,7 +61,7 @@ NOTA:
 
 | Nombre props | Tipo | Descripción |
 | -- | -- | -- |
-| list | List | Hace referencia al objeto que identifica el bloque que estara disponible para usar. Es necesario que la interfaz que se defina aqui, este tambien incluida como children. |
+| list | List | Hace referencia al objeto que identifica el bloque que estará disponible para usar. Es necesario que la interfaz que se defina aqui, este tambien incluida como children. |
 
 
 
@@ -77,7 +77,7 @@ NOTA:
 Desde el site editor, se pueden realizar las siguientes configuraciones:
 
 1. Puede seleccionar de una lista de componentes, cuales desea que sean visibles en el template.
-2. Puede determinar cada cuanto mostrar el componente "__fold__", con el fin de aumentar la velocidad de carga de la pagina.
+2. Puede determinar cada cuanto mostrar el componente "__fold__", con el fin de aumentar la velocidad de carga de la página.
 
 Para cada componente que agregue, puede realizar la siguiente configuración:
 
